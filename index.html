@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Slider</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" type="text/css" href="css/slick.css" />
+        <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+        <link rel="stylesheet" href="../Homework_14_Khrystych/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+ 
+            <div id="carousel" class="slider">
+                <div><img src="img/photo01.png" alt="foto" /></div>
+                <div><img src="img/photo02.png" alt="foto" /></div>
+                <div><img src="img/photo03.png" alt="foto" /></div>
+            </div>
+
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#carousel").slick({
+                    dots: true,
+                });
+            });
+        </script>
+    </body>
+</html>
